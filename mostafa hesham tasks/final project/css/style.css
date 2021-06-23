@@ -1,0 +1,152 @@
+.vl {
+    border-left: 1px solid rgb(255, 255, 255);
+    height: 20px;
+}
+
+.f-s-8{
+    font:.9rem sans-serif;
+}
+.dropdown-content {
+    display: none; }
+.dropdown:hover .dropdown-content {display: block;}
+.squar{
+    height: 10px!important;
+    width:10px!important;
+    background: white;
+    border: 0 solid;
+    padding: 0!important;
+    margin-bottom: 100% ;
+}
+.virtical-slider-cos{
+    position: absolute;
+    right: 3%;
+    bottom: 33%;
+    z-index: 2;
+    display: block;
+    justify-content: center;
+    padding: 0;
+    border: 0 solid;
+    list-style: none;
+}
+.h-600{
+    height: 550px;
+}
+.cosnav{
+    position: sticky;
+    top: 0;
+    z-index: 5000;
+    background: white;
+}
+.p-ab{
+    position: absolute;
+    top: 28%;
+    left: 10%;
+    text-align: center;
+}
+.card-img-overlay{
+    background-color: rgba(0, 0, 0, 0.747);
+}
+.f-3{
+    font-size: 3rem;
+}
+.px-19{
+    padding: 2% 23%;
+
+}
+.btn-size{
+    width: 20%;
+    height: 3rem;
+}
+.f-17{
+    font-size: 17px !important;
+}
+.squar:hover{
+    background-color: transparent;
+    border: 1px solid white;
+    height: 11px!important;
+    width:11px!important;
+}
+.squar:focus{
+    background-color: transparent;
+    border: 1px solid white;
+    height: 11px!important;
+    width:11px!important;
+}
+.carousel-indicators [data-bs-target]{
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 15px;
+    height: 15px;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    display: block;
+    transition: opacity .6s ease;
+}
+.carousel-indicators{
+    position: absolute;
+    right: 0px;
+    bottom: 36%;
+    left: 95%;
+    z-index: 2;
+    display: inline-block;
+    justify-content: center;
+    padding: 0;
+  
+    list-style: none;
+    text-align: end;
+    margin: 0;
+}
+.carousel-indicators .active{
+background-color: transparent;
+border: 1px solid white;}
+.carousel-indicators [data-bs-target]:hover{
+    background-color: transparent;
+border: 1px solid white;
+}
+.doubl-line {
+    width: 262px;
+    font: 34px Arial;
+    font-weight: normal;
+    text-align: right;
+    position: relative;
+    display: block;
+    margin: 2% auto;
+  }
+  
+  h3 span {
+    background: #fff; 
+    margin-right: 15%;
+    padding: 0 20px;
+  }
+  
+  .doubl-line:before {
+    content: "";
+    width: 120%;
+    left: -10px;
+    top: 50%;
+    margin-top: -4px;
+    position: absolute;
+    z-index: -1;
+    height: 0;
+    border-top: 2px solid rgb(0, 17, 255);
+  }
+  .s-doubl-line:before {
+    content: "";
+    width: 100%;
+    left: 20px;
+    top: 71%;
+    margin-top: -4px;
+    position: absolute;
+    z-index: -1;
+    height: 0;
+    border-top: 2px solid rgb(0, 17, 255);
+  }
