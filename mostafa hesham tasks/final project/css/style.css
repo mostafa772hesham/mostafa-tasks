@@ -366,3 +366,76 @@ a:hover{
         border-bottom-left-radius: 50rem!important;
         border-top-left-radius: 50rem!important;
      }
+.blue-hr{
+    top: 104px !important;
+    width: 25% !important;
+    color: blue !important;
+    height: 2px !important;
+    opacity: 1 !important;
+}
+.gray-hr{
+    height: 2px !important;
+    opacity: 1 !important;
+    color: lightgray;
+}
+.line-animate:hover .blue-hr{
+    width: 90% !important;
+    opacity: 1 !important;
+    transition: .5s;
+    transition-timing-function: linear;
+}
+.opacity-hover:hover{
+    color: white !important;
+opacity: .8 !important;
+}
+
+.line-animate:hover .blue-hover{
+    background-color: blue !important;
+    transition: .5s;
+
+}
+.fw-600{
+    font-weight: 600 !important;
+}
+.hover-arow:hover .arow-tr{
+    transform: translateX(12px);
+    transition: .5s;
+}
+.non-hover-color:hover{
+color: black !important;
+}
+.animate-img-s-t{
+
+}
+.animate-img-s-t:hover{
+transform: scale(1.2) rotate(-3deg);
+
+}
+.mcustom-line::after{
+
+    content: "";
+    height: 2px;
+    width: 79px;
+    background-color: rgb(0, 17, 255);
+    position: absolute;
+    right: -41%;
+    top: 51%;
+}
+.mscustom-line::after{
+
+    content: "";
+    height: 2px;
+    width: 50px;
+    background-color: rgb(0, 17, 255);
+    position: absolute;
+    right: -30%;
+    top: 30%;
+}
+.cus-phone{
+    opacity: .5;
+    top: -18%;
+    transform:rotate(-50deg) ;
+    left: 9%;
+    font-size: 4.2rem;
+}
+    
