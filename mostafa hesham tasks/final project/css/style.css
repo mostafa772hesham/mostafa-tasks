@@ -36,8 +36,9 @@
 
 }
 .btn-size{
-    width: 20%;
-    height: 3rem;
+    width: 20.5%;
+    height: 3.4rem;
+    font-size: 19px;
 }
 .f-17{
     font-size: 17px !important;
@@ -404,9 +405,6 @@ opacity: .8 !important;
 .non-hover-color:hover{
 color: black !important;
 }
-.animate-img-s-t{
-
-}
 .animate-img-s-t:hover{
 transform: scale(1.2) rotate(-3deg);
 
@@ -438,4 +436,26 @@ transform: scale(1.2) rotate(-3deg);
     left: 9%;
     font-size: 4.2rem;
 }
-    
+.mm{
+    margin-left: -2px;
+
+}
+.h-100px{
+    height: 100px;
+    box-sizing: content-box;
+}
+.f-11{
+    font-size: 11px;
+}
+.shadow-top-black{
+    box-shadow: 0px -5px 7px #000000;
+}
+.h-72px{
+    height: 72px;
+}
+.hover-white:hover{
+    color: white !important;
+}
+.border-reduse-0{
+    border-radius: 0;
+}
