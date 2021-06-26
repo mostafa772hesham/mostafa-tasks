@@ -504,6 +504,9 @@ textarea:focus{
         right: 0;
         padding: 0.3%0;
     }
+    .cus-blue-hover:hover .blue{
+        color: blue;
+    }
     body{
         scroll-behavior: smooth;
     }
@@ -513,6 +516,7 @@ textarea:focus{
         }
         .w-31{
             width: 100% !important;
+            margin-bottom: 2%;
         }
         .h-100px{
             height: auto;
@@ -555,8 +559,18 @@ textarea:focus{
             padding: 0 !important;
         }
         .h-700{
-            height: max-content !important;
+            height: 1200px !important;
         }
-
+        .me-5{
+            margin-left: 0% !important;
+        }
+        .btn-size{
+            width: auto;
+            height: auto;
+            font-size: 1rem;
+        }
+        .f-3{
+            font-size: 1rem;
+        }
        }
    
