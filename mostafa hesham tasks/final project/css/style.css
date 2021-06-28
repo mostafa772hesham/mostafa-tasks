@@ -214,16 +214,13 @@ border: 1px solid white;
 }
 .cos-card-hide{
     left: 0%;
-    top: 22%;
+    top: 100% ;
     background-color: white;
-    opacity: 0;
-    transform: translateY(53px) scaley(.01);
 }
 
 .custm-hover:hover .cos-card-hide{
-    opacity: 1;
-    transform: translatey(-43px);
     transition: .5s;
+top:0%
 
 }
 .h-300imag{
@@ -285,15 +282,12 @@ a:hover{
 }
 .cos-img-hide{
     background-color: white;
-    opacity: 0;
-    transform: translateY(53px) scaley(.01);
-    bottom: -9%;
+    top: 81%;
+
 }
 .custm-hover:hover .cos-img-hide{
-    opacity: 1;
-    transform: translatey(-43px);
+    top: 46%;
     transition: .3s;
-    transition-timing-function: ease-out;
     box-shadow: 0px -5px 7px #e9ecef;
 
 }
@@ -407,6 +401,7 @@ color: black !important;
 }
 .animate-img-s-t:hover{
 transform: scale(1.2) rotate(-3deg);
+transition: .5s;
 
 }
 .mcustom-line::after{
