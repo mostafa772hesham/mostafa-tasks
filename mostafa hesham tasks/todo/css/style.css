@@ -1,0 +1,24 @@
+.btn-edite{
+    background-color: green !important;
+    color: white;
+    border: 0px solid;
+
+}
+.btn-edite:hover{
+    color: white !important;
+    border: 0px solid;
+    background-color: green !important;
+
+}
+.btn-danger{
+    background-color: rgb(128, 0, 0) !important;
+    color: white;
+    border: 0px solid;
+
+}
+.btn-danger:hover
+{
+    background-color: rgb(128, 0, 0) !important;
+    color: white;
+    border: 0px solid;
+}
