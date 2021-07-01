@@ -464,8 +464,8 @@ transition: .5s;
 }   
 
 .icon-form{
-    left: 4%;
-    top: 24% !important;
+    left: 3%;
+    top: 34px !important;
 }
 #Name:focus{
 outline: none !important;
@@ -593,4 +593,19 @@ width: 0;
 
         }
 
+       }
+       .validation{
+        border-color: red !important;
+        box-shadow: none !important;
+       }
+       .tr{
+        display: block;
+        transform: translateX(-22%);
+        opacity: 0;
+       }
+       .trh:hover .tr{
+        display: block !important;
+        transform: translateX(0) !important;
+        opacity: 1 !important;
+        transition: .5s;
        }
